@@ -33,7 +33,7 @@ public enum YAMLType: String {
 public struct YAML {
 	let indent: Int
 	var type: YAMLType
-	let key: String?
+	var key: String?
 	let tag: String?
 	var value: Any?
 	public var count: Int? {
